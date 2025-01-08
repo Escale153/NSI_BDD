@@ -1,0 +1,35 @@
+cahier des charges :
+Créer une interface graphique permettant de gérer une base de donnée de membres
+Interface graphique codée sur tkinter
+La gestion permet de :
+	créer/supprimer des tables
+	modifier des tables
+	ajouter/supprimer/modifier des valeurs
+	lire les données
+	
+La base de données regroupe les informations sur les membres du club robotique de l'ind
+L'interface permet une lecture de données via :
+	le visuel des tables
+	la recherche de données
+	
+cahier de recettes :
+Le projet est une interface graphique
+L'interface gère une base de données
+la base de données contient des informations sur les membres du club robotique
+L'interface permet de modifier des tables
+L'interface permet de modifier les valeurs
+l'interface permet de lire les données :
+	De manière graphique
+	Via une recherche
+Il y a au moins 2 tables
+C'est un modèle relationnel de tables
+Les informations disponibles sont pertinentes
+L'interface est accessible
+
+Spécifications techniques:
+L'interface est codée via tkinter
+La gestion des tables et données via requêtes sql sous python
+La gestion de la base de données via sqlite3 sous python
+Une base de données sera intégrée dès le début et pourra être modifiée
+Il faut intégrer au moins une jointure SQL,
+	se servir des SELECT couplés à WHERE

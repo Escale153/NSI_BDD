@@ -137,7 +137,7 @@ class SearchPage(tk.Frame):
 
     # chaque fois qu'il y a 0 c'est juste que c'est la valeur dans la data base(nom de la colonne)
 
-    def on_table_select(self, event):
+    def on_table_select(self, event=""):
         """
         Met a jour quel table est utilisé
         """
